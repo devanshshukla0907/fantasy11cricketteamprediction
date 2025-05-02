@@ -8,7 +8,7 @@ from team_selector import load_models, predict_points, select_best_11
 from eda import batsman_eda, bowler_eda, combined_analysis
 
 # Load your trained models
-bat_model, bowl_model = load_models("03_models/batsman_model_xgb.pkl", "03_models/bowler_model.pkl")
+bat_model, bowl_model = load_models("03_models/batsman_model_xgb.pkl", "03_models/bowler_model_xgb.pkl")
 
 # Streamlit UI
 st.set_page_config(page_title="Dream11 Team Predictor & EDA", layout="wide")
